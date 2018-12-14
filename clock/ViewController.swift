@@ -44,8 +44,7 @@ class ViewController: UIViewController {
         }
         playBtn.isEnabled = false
         pauseBtn.isEnabled = true
-        <span; type="white-space:pre">
-        //</span>启动计时器方法
+        <span; type="white-space:pre">; </span>//启动计时器方法
         Timer = Timer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.UpdateTimer), userInfo: nil, repeats: true)
         IsPlaying = true
     }
@@ -54,8 +53,8 @@ class ViewController: UIViewController {
         
         playBtn.isEnabled = true
         pauseBtn.isEnabled = false
-        <span; type="white-space:pre">
-        //</span>关闭计时器方法
+        do {span; style="white-space:pre"}; <span>
+      
         Timer.invalidate()
         IsPlaying = false
         
